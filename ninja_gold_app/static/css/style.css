@@ -1,0 +1,40 @@
+#warpper {
+    width: 80%;
+    margin: 4rem auto;
+}
+#forms_div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+form{
+    border: 3px solid black;
+    padding: 1rem 1.5rem 1.5rem;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    font-size: 1.3rem;
+}
+#display_div {
+    border: 3px solid black;
+    width: 100%;
+    height: 12rem;
+    overflow: scroll;
+}
+span {
+    border: 3px solid black;
+    padding: 0.5rem 4rem 0.5rem 0.5rem;
+    margin-left: 2rem;
+}
+.green{
+    margin-left: 1rem;
+    color:green;
+}
+.red{
+    margin-left: 1rem;
+    color:red;
+}
